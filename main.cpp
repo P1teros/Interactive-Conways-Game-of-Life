@@ -19,9 +19,10 @@ int main()
     {
         if(IsKeyPressed(KEY_SPACE))
         {
-            IsRunning = true;
+            IsRunning = !IsRunning;
         }
-        if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) == true)
+
+        if(IsMouseButtonPressed(MOUSE_BUTTON_LEFT) == true)
         {
             int x, y;
             x = GetMouseX();
@@ -33,6 +34,7 @@ int main()
 
             grid.SetValue(clirow, clicolumn, 1);
         }
+
         if(IsRunning == true)
         {
             grid.Update();
