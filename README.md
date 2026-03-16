@@ -38,4 +38,5 @@ The program constantly switches between two main states:
 * **Left Mouse Button (Click or Hold)** - Spawn live cells on the grid
 * **Right Mouse Button (Click or Hold)** - Deleting cells from the grid
 * **SPACE** - Play / Pause the simulation
-
+  
+https://github.com/user-attachments/assets/ae428e19-5917-4a1c-93e8-d39174938b19
