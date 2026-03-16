@@ -9,12 +9,26 @@ int main()
     const int Cell_Size = 25;
     int FPS = 10;
 
+    int Left_Mouse_Button = 0;
+
     InitWindow(Window_Width, Window_Height, "Conway's Game of Life");
     SetTargetFPS(FPS);
     Grid grid{Window_Width, Window_Height, Cell_Size};
 
     while(WindowShouldClose() == false)
     {
+        if(IsMouseButtonDown(MOUSE_BUTTON_LEFT) == true)
+            {
+                int x, y;
+                x = GetMouseX();
+                y = GetMouseY();
+                int clicolumn, clirow;
+
+                clicolumn = x / Cell_Size;
+                clirow = y / Cell_Size;
+
+                grid.SetValue(clirow, clicolumn ,1)
+            }
         grid.Update();
         // drawing
         BeginDrawing();
