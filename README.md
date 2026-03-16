@@ -39,4 +39,3 @@ The program constantly switches between two main states:
 * **Right Mouse Button (Click or Hold)** - Deleting cells from the grid
 * **SPACE** - Play / Pause the simulation
 
-https://github.com/user-attachments/assets/c9f505a7-7163-4caa-80e5-b8eae967723c
