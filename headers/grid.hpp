@@ -16,12 +16,6 @@ class Grid
             //1. tworzy listę, która ma x miejsc (x = liczba kolumn) i na każdym miejscu przypisz 0
             //2. bierze apsek z x zerami i "klonuje" go w dół o y razy (y = liczba wierszy)  
 
-            // TUTAJ DODAJEMY GLIDERA (Szybowiec)
-            cells[5][6] = 1;
-            cells[6][7] = 1;
-            cells[7][5] = 1;
-            cells[7][6] = 1;
-            cells[7][7] = 1;
         }
 
         void Draw();
