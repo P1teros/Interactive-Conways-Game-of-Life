@@ -8,8 +8,6 @@ Unlike a basic simulation, this version allows the user to interactively create 
 * Classic cellular automaton rules implementation
 * Interactive grid system allowing players to draw custom cell patterns
 * Play and pause mechanics to freeze time and edit the board safely
-* On-screen Generation and FPS counters
-* Simple and clean game loop structure
 * Smooth rendering using the Raylib library
 
 ## How the Game Works
